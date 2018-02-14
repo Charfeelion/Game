@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>SCALE</title>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Oswald:300" rel="stylesheet">
+        <style>
+            *{
+                font-family: 'Oswald', sans-serif;
+                color: white;
+            }
+            h1{
+                font-size: 100px;
+                font-family: 'Amatic SC', cursive;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="game">
+                <section>
+                    <h1>S C A L E</h1>
+                    <br />
+                    You are a formless sentient entity that can travel through the universe at will. Your goal is to learn as much as you 
+                    can about this universe to make your own.
+                </section>
+            </div>
+            <div id="menu">
+                <div id="input-wrapper">
+                    <button id="gameStart">New Game</button>
+                    <input type="text" id="input"/>
+                    <button id="play">Enter</button>
+                    <button id="save">Save</button>
+                    <button id="load">Load</button>
+                    <button id="clear">Clear Save</button>
+                </div>
+                <div id="feedback"></div>
+                <div id="story"></div>
+                <div id="learnDisplay"></div>
+                <div id="help">Commands:
+                        <li>scale in</li>
+                        <li>scale out</li>
+                        <li>learn</li>
+                        <li><i>create</i></li>
+                </div>
+            </div>
+
+        </div>
+        <!--<footer>
+            I am Footer.
+        </footer>-->
+
+        <script src="script/game.js"></script>
+    </body>
+
+</html>
